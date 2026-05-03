@@ -261,8 +261,8 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-dark border-t border-gold/20 absolute w-full">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col shadow-xl">
+        <div id="mobile-menu" class="hidden md:hidden glass-nav border-t border-gold/20 absolute top-full left-0 w-full shadow-xl">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
                 <a href="#home" class="mobile-link block px-3 py-2 text-base font-medium hover:text-gold">Home</a>
                 <a href="#about" class="mobile-link block px-3 py-2 text-base font-medium hover:text-gold">About</a>
                 <a href="#services" class="mobile-link block px-3 py-2 text-base font-medium hover:text-gold">Services</a>
@@ -275,7 +275,7 @@
 
     <!-- Hero Section -->
     <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
-        <!-- Background Image with Overlay -->
+        <!-- Background Image with Overlay (Real Indian Salon/Bridal Vibe) -->
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1920&auto=format&fit=crop" alt="Luxury Salon Interior" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-r from-black/95 via-black/70 to-black/30"></div>
@@ -284,10 +284,10 @@
         <!-- Content -->
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-16 animate-on-scroll fade-in-up">
             <p class="text-gold tracking-[0.3em] text-sm md:text-base uppercase mb-4">Welcome to Premium Care</p>
-            <h1 class="font-heading text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+            <h1 class="font-heading text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
                 Style. Perfection. <br/> <span class="text-gold-gradient italic">Confidence.</span>
             </h1>
-            <p class="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-light">
+            <p class="text-gray-300 text-base sm:text-lg md:text-xl mb-10 max-w-2xl mx-auto font-light">
                 Experience unparalleled luxury in hair styling, bridal makeup, and skin care right in the heart of Patna.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -310,7 +310,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-24 bg-dark relative">
+    <section id="about" class="py-16 md:py-24 bg-dark relative">
         <!-- Decorative element -->
         <div class="absolute top-0 left-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         
@@ -373,7 +373,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-24 bg-[#141414] relative">
+    <section id="services" class="py-16 md:py-24 bg-[#141414] relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 animate-on-scroll fade-in-up">
                 <h4 class="text-gold uppercase tracking-widest text-sm mb-2">Our Offerings</h4>
@@ -435,7 +435,7 @@
     </section>
 
     <!-- Pricing Packages Section -->
-    <section id="pricing" class="py-24 bg-dark relative">
+    <section id="pricing" class="py-16 md:py-24 bg-dark relative">
         <div class="absolute top-1/2 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl translate-x-1/3 -translate-y-1/2"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 animate-on-scroll fade-in-up">
@@ -528,7 +528,7 @@
     </section>
 
     <!-- Before/After Slider Section -->
-    <section class="py-24 bg-[#141414]">
+    <section class="py-16 md:py-24 bg-[#141414]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 animate-on-scroll fade-in-up">
                 <h4 class="text-gold uppercase tracking-widest text-sm mb-2">Transformations</h4>
@@ -560,7 +560,7 @@
     </section>
 
     <!-- Gallery Section (Instagram Style) -->
-    <section id="gallery" class="py-20 bg-dark">
+    <section id="gallery" class="py-16 md:py-24 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-end mb-12 animate-on-scroll fade-in-up">
                 <div>
@@ -627,7 +627,7 @@
     </section>
 
     <!-- Testimonials Slider Section -->
-    <section class="py-24 bg-[#141414] relative overflow-hidden">
+    <section class="py-16 md:py-24 bg-[#141414] relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 animate-on-scroll fade-in-up">
                 <h4 class="text-gold uppercase tracking-widest text-sm mb-2">Testimonials</h4>
@@ -636,12 +636,12 @@
 
             <div class="relative w-full max-w-6xl mx-auto animate-on-scroll fade-in-up">
                 <!-- Slider Controls -->
-                <button id="prev-btn" class="absolute top-1/2 -left-2 md:-left-6 lg:-left-12 transform -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 rounded-full glass flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all z-20 focus:outline-none shadow-lg">
-                    <i class="fas fa-chevron-left"></i>
+                <button id="prev-btn" class="absolute top-1/2 left-0 md:-left-6 lg:-left-12 transform -translate-y-1/2 w-8 h-8 md:w-12 md:h-12 rounded-full glass flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all z-20 focus:outline-none shadow-lg">
+                    <i class="fas fa-chevron-left text-sm md:text-base"></i>
                 </button>
                 
-                <button id="next-btn" class="absolute top-1/2 -right-2 md:-right-6 lg:-right-12 transform -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 rounded-full glass flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all z-20 focus:outline-none shadow-lg">
-                    <i class="fas fa-chevron-right"></i>
+                <button id="next-btn" class="absolute top-1/2 right-0 md:-right-6 lg:-right-12 transform -translate-y-1/2 w-8 h-8 md:w-12 md:h-12 rounded-full glass flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all z-20 focus:outline-none shadow-lg">
+                    <i class="fas fa-chevron-right text-sm md:text-base"></i>
                 </button>
 
                 <!-- Slider Wrapper -->
@@ -772,7 +772,7 @@
     </section>
 
     <!-- Booking & Contact Section -->
-    <section id="booking" class="py-24 bg-dark relative">
+    <section id="booking" class="py-16 md:py-24 bg-dark relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 
